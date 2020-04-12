@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form>
-            <button type="submit" formaction="https://www.w3docs.com">Click me</button>
-         </form>
-
-        <audio controls="true" autoplay="true" src="OTHERWISE - Soldiers.ogg"> </audio>
+        <audio id="myAudio" autoplay="true" src="OTHERWISE - Soldiers.ogg"> </audio>
     </body>
    
     <style>
@@ -24,4 +20,8 @@
             left: 0;
         }
     </style>
+    <script>
+        var aud = document.getElementById("myAudio");
+        aud.volume = 0.069;
+    </script>
 </html>
